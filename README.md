@@ -1,10 +1,10 @@
-# WEB102 Prework - Sea Monster Crowdfunding
+# WEB102 Prework - Fun Funding
 
 Submitted by: Rianna Lei
 
-Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Fun Funding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 30 hours spent in total
+Time spent: 28 hours spent in total
 
 ## Required Features
 
@@ -17,7 +17,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] Changed the theme and added css to the website to make it look better 
+* [x] Changed the theme to make it look better
+* [x] Added CSS to make the words and pictures to make it look good
 
 ## Video Walkthrough
 
