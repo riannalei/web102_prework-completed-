@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #B9D6F2; /* Light blue */
+    color: #243447; /* Dark blue */
+}
+
+#tentacles {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: #90B0D1; /* Muted blue */
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.header-text{
+    color: #243447; /* Dark blue */
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #3F91C6; /* Lighter blue */
+}
+
+.stats-card {
+    background-color: #A3C1D6; /* Muted blue */
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+    color: #243447; /* Dark blue */
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #243447; /* Dark blue */
+}
+
+.game-card {
+    background-color: #D9E8F5; /* Light blue */
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    color: #243447; /* Dark blue */
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #3F91C6; /* Lighter blue */
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
+    background-color: #90B0D1; /* Muted blue */
+    color: #243447; /* Dark blue */
+    border: none;
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#first-game, #second-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerTheme {
+    text-align: center;
+    color: #133B5C; /* Darker blue */
+    font-family: 'Cabin', sans-serif; 
+    font-weight: 200000; 
+}
+
+.description {
+    color: #133B5C; /* Darker blue */
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
